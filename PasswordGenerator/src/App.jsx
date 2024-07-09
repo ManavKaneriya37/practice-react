@@ -22,6 +22,7 @@ function App() {
       let char = Math.floor(Math.random() * characters.length)
       string += characters.charAt(char)
       setPassword(string)
+
     }
   },[length,numberAllowed,spcharAllowed])
 
