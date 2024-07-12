@@ -1,0 +1,12 @@
+html{
+    background-color: #171617;
+    color: #fff;
+}
+html::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #ffffff84;
+    border-radius: 4px;
+}
