@@ -1,0 +1,20 @@
+main::-webkit-scrollbar {
+    width: 5px;
+  }
+main::-webkit-scrollbar-thumb {
+  background: rgba(37, 37, 37, 0.847); 
+  border-radius: 10px;
+}
+.mine{
+    align-self: flex-end;
+    span{
+        align-self: end;
+    }
+}
+img{
+    width: 400px;
+    object-fit: cover;
+}
+img&.mine{
+    align-self: flex-end;
+}
